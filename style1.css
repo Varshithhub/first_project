@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: cadetblue;
+}
+.container{
+    width: 30%;
+   margin-left: 33%;
+   box-shadow: 0px 2px 5px;
+   border-radius: 10px;
+   height: 40%;
+   padding: 20px;
+   color: black;
+   background-color: antiquewhite;
+}
+.choice-btn{
+    background-color: aqua;
+}
+.xyz{
+    text-align: center;
+}
