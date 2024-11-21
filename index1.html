@@ -10,24 +10,33 @@
     <div class="xyz">
     <h1>ROCK-PAPPER-SCISSORS</h1>
 </div>
-    <footer class="container">
+    <main class="container">
     <h>CHOOSE-ONE</h4>
     <br><br>
-    <img src="rock.webp" alt="" height="100">
+    <img src="rock.webp" alt="Rock" height="150">
     <br><br> 
     <button onclick="playGame('rock')" class="choice-btn">Rock</button>
     <br><br> 
-    <img src="papper1.webp" height="100"> 
+    <img src="papper1.webp" height="150"> 
     <br><br>
     <button onclick="playGame('Paper')" class="choice-btn">Paper</button>
     <br><br>
-    <img src="papper.webp" height="100">
+    <img src="papper.webp" height="150">
     <br><br>
     <button onclick="playGame('Scissors')" class="choice-btn">Scissors</button>
     
-    </footer> 
-    <br>    
-    <h1><div id="result" class="result"></div></h1>
+    </main> 
+    <br><br>
+   
+    <h1><div id="result" class="result">make your choice !</div></h1>
+    <br>
+    <button id="resbtn" onclick="restartgame()" style="display: none;">Restart-Game</button>
+    <br><br>
+    <footer class="last">
+        <h2 id="score">Score :0</h2>
+        <h2 id="round">Round :0</h2>
+    </footer>
+    
     <script src="Game.js"></script>
 </body>
 </html>

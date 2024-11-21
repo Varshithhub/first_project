@@ -18,3 +18,22 @@ body{
 .xyz{
     text-align: center;
 }
+#result{
+    width: 30%;
+    margin-left: 33%;
+    box-shadow: 0px 2px 5px;
+    border-radius: 10px;
+    height: 40%;
+    padding: 20px;
+    color:gold;
+    background-color: gray;
+}
+
+.last{
+    width: 30%;
+    margin-left: 33%;
+    box-shadow: 20px 25px 45px;
+    border-radius: 10px;
+    height: 20%;
+    padding: 20px; 
+}
